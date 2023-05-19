@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    background-color: #7c7c7c;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+    background-color: #7c7c7c;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+  width: 120px;
+
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul {
+    display: flex;
+    text-transform: uppercase;
+   
+}
+.menu li {
+  padding: 15px;
+  margin-top: 35px;
+  list-style: none;
+}
+section {
+    background-color: #2c2c2c;
+    height: 90vh;
+}
+.container2 {
+ position: relative;
+ justify-content: space-between;
+}
+.imagem img {
+    width: 300px;
+    position: absolute;
+    left: 200px;
+    margin-top: 30px;
+    border-radius: 90px;
+}
+.nome {
+    position: absolute;
+    text-align:end;
+    font-size: 50px;
+    top: 200px;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 990px;
+    
+}
+.subtitulo {
+    position: absolute;
+    text-align:end;
+    font-size: 20px;
+    top: 280px;
+    left: 630px;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 450px;
+    
+}
+
+.sobremim {
+    position: relative;
+    background-color: #fff;
+    height: 500px;
+    text-align: center;
+}
+.titulo {
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 1300px;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+.sobremim2 {
+    position: absolute;
+    width: 630px;
+    top: 130px;
+    left: 20px;
+    font-size: 20px;
+}
+.foto {
+    position: absolute;
+    width: 1200px;
+    display: flex;
+    top: 80px;
+    align-items: flex-end;
+    justify-content: flex-end;
+    
+}
+.foto img {
+  width: 300px;
+  border-radius: 50px;
+ 
+
+}
+.projetos {
+    background-color: black;
+    height: 600px;
+    position: relative;
+
+}
+
+.titulo2 {
+    margin-top: 30px;
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    width: 1300px;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+.container3 {
+    
+}
+
+.projetog {
+    position: absolute;
+    display: flex;
+    color: #fff;
+    width: 700px;
+    padding: 40px;
+    text-align: center;
+    align-items: center;
+    top: 30px;
+    left: 350px;
+    flex: 1;
+    flex-wrap: wrap;
+
+}
+.projeto1 img {
+    width: 200px;
+    padding: 30px;
+}
+.projeto2 img  {
+    width: 200px; 
+    padding: 30px; 
+}
+.projeto3 img  {
+    width: 200px;
+    padding: 30px;
+}
+.projeto4 img {
+    width: 200px;
+    padding: 45px;
+}
+.tituloprojeto  {
+    
+   
+    font-size: 18px;
+}
+footer {
+    height: 300px;
+    background-color: #1c1c1c;
+    
+}
+.contatos {
+    display: flex;
+    position: relative;
+}
+.zap img {
+    position: absolute;
+    top: 50px;
+    left: 250px;
+    width: 80px;
+}
+.instagram img {
+    position: absolute;
+    width: 40px;
+    top: 60px;
+    left: 950px;
+
+}
+.contato {
+    position: absolute;
+    top: 120px;
+    left: 240px;
+    width: 130px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+.contatoi {
+    position: absolute;
+    width: 40px;
+    top: 120px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    left: 920px;
+}
+@media (min-width:320px ) and (max-width:700px) {
+    body {
+        width: 800px;
+    }
+    header {
+        justify-content: flex-start;
+    }
+    .menu ul {
+        position: relative;
+        left: 100px;
+    }
+    .container {
+        width: 300px;
+        
+    }
+    .logo {
+        justify-content: flex-start;
+        align-items: flex-start;
+
+    }
+    .imagem img {
+        width: 180px;
+        left: 30px;
+        top: 100px;
+    }
+    
+    .nome {
+     position: absolute;
+    text-align:end;
+    font-size: 50px;
+    top: 200px;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 480px;
+    
+    }
+    .subtitulo {
+        left: 170px;
+    }
+    /* PRIMEIRA PARTE HEADER MENU, FOTO FRASE E NOME */
+    .titulo {
+        width: 660px;
+    }
+    .sobremim {
+        height: 750px;
+        left: 0;
+        
+    }
+    .sobremim2 {
+
+        width: 600px;
+        top: 50px;
+        left: 10px;
+        font-size: 20px;
+        color: #7c7c7c;
+    }
+    .foto {
+       width: 420px;
+       top: 420px;
+    }
+    .foto img {
+     width: 200px;
+    }
+    .titulo2 {
+        width: 650px;
+    }
+    .projetog {
+        position: absolute;
+        display: flex;
+        color: #fff;
+        width: 600px;
+        padding: 40px;
+        text-align: center;
+        align-items: center;
+        top: 30px;
+        left: 30px;
+        flex: 1;
+        flex-wrap: wrap;
+    
+    }
+    .instagram img {
+        position: absolute;
+        width: 40px;
+        top: 70px;
+        left: 450px;
+    
+    }
+    .contatoi {
+        position: absolute;
+        width: 30px;
+        top: 120px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #fff;
+        left: 420px;
+    }
+}
